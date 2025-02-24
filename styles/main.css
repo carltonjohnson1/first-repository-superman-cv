@@ -8,7 +8,7 @@ Yellow (Emblem background, belt) – #FFCC00
 body{
     background-color: black;
 }
-#maindiv {
+.maindiv {
     background-color: white;
     width: 1000px;
     margin-left: auto;
@@ -124,7 +124,7 @@ li {
     font-size: 1.2rem;
   }
 
-  #divaside {
+  .divaside {
     background-color: #0047AB;
     width: 220px;
     padding: 20px;
@@ -150,13 +150,15 @@ flex-direction: row-reverse;
   div.flex2 {
     display: flex; 
     flex-direction: column;
+    
+   
       }
 
-
-  div.contact {
-display: flex;
-
-  }
+      div.contact {
+        display: flex;
+        
+          }
+  
 
 img.svg {
     width: 25px;
